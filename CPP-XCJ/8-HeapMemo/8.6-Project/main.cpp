@@ -6,6 +6,7 @@ Requirement:
 */
 #include <iostream>
 #include "log_fac.h"
+#include "test_class.h"
 
 using namespace std;
 
@@ -17,6 +18,9 @@ int main()
     LOGINFO ("Test log info");
     LOGERROR("Test log error");
     LOGFATAL("Test log fatal");
+
+    TestClass tc;
+    tc.TestXLog();
 
     return 0;
 }

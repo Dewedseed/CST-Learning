@@ -1,6 +1,8 @@
+#pragma once
+
 #ifdef _WIN32
-    #ifdef XLOG_EXPROTS
-    #define XLOG_API __declspec(dllexport)
+    #ifdef XLOG_EXPORTS
+    #define XLOG_API  __declspec(dllexport)
     #else
     #define XLOG_API __declspec(dllimport)
     #endif
@@ -12,4 +14,3 @@ class XLOG_API Cxlog {
 public:
 private:
 };
-

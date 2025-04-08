@@ -1,3 +1,8 @@
+VideoEdit-XCJ/bin
+VideoEdit-XCJ/build
+VideoEdit-XCJ/include
+VideoEdit-XCJ/lib
+
 # Prerequisites
 *.d
 
